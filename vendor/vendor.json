@@ -2,5 +2,9 @@
 	"comment": "",
 	"ignore": "test",
 	"package": [],
-	"rootPath": "github.com/dodosuke/flashcard-server"
+	"rootPath": "github.com/dodosuke/flashcard-server",
+	"heroku": {
+		"install" : [ "." ],
+		"goVersion": "go1.6"
+	}
 }
