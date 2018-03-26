@@ -4,7 +4,6 @@
 	"package": [],
 	"rootPath": "github.com/dodosuke/flashcard-server",
 	"heroku": {
-		"install" : [ "./src/..." ],
-		"goVersion": "go1.9"
+		"install" : [ "./..." ]
 	}
 }
