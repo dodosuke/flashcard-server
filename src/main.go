@@ -13,7 +13,7 @@ func main() {
 }
 
 func json(w http.ResponseWriter, r *http.Request) {
-	f, e := os.Open("output.json")
+	f, e := os.Open("./src/output.json")
 	if e != nil {
 		http.Error(w, "file not found", 404)
 		return
