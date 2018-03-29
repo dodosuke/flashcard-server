@@ -21,5 +21,5 @@ with open('./input.csv', 'r') as file:
 
 with open('../output.json', 'w') as f:
     # JSONへの書き込み
-    deck = [{"name": name, "cards": cards}]
+    deck = {"name": name, "cards": cards}
     json.dump(deck, f, ensure_ascii=False)
